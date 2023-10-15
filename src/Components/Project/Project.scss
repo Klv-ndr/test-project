@@ -1,0 +1,165 @@
+.title-text {
+    
+    font-family: 'Poppins';
+    font-weight: 700  ;
+    font-size: 36px;
+    line-height: 46px;
+    color: #4D533C;
+    
+}
+
+.description-text {
+    
+    font-family: 'Poppins';
+    font-weight: 400  ;
+    font-size: 16px;
+    line-height: 26px;
+    color:  #21384299;
+}
+
+.text-area {
+    width: 976px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.title-area {
+    width: 328px;
+    margin-right: 50px;
+}
+
+.description-area {
+    width: 518px;
+    margin-top: 10px;
+}
+
+.text-link {
+    font-family: 'Poppins';
+    font-weight: 400  ;
+    font-size: 16px;
+    line-height: 2px;
+    color:   #D4D6D4;
+    display: flex;
+    align-items: center;
+    margin-top: 75px;
+    
+
+}
+
+.img-title {
+    width: 735px;
+    height: 550px;
+}
+.one {
+    margin-left: -150px;
+}
+
+.two {
+    margin-right: -150px;
+}
+
+.three {
+    margin-left: -150px;
+}
+.balenciaga {
+    display: flex;
+    justify-content: space-between;
+}
+
+.d-Model {
+    display: flex;
+    justify-content: space-between;
+}
+
+.online-booking {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    width: 475px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.coment-balenciaga {
+    width: 453px;
+    height: 243px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 4px 50px 50px rgba(0, 0, 0, 0.3);
+    margin-top: -175px;
+    margin-left: 175px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 100px;
+}
+
+.coment-d-Model {
+    width: 453px;
+    height: 243px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: -175px;
+    margin-left: 500px;
+    position: relative;
+    z-index: 1;
+    box-shadow: 4px 50px 50px rgba(0, 0, 0, 0.3);
+    margin-bottom: 100px;
+}
+
+.coment-online-booking {
+    width: 453px;
+    height: 243px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 4px 50px 50px rgba(0, 0, 0, 0.3);
+    margin-top: -175px;
+    margin-left: 175px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.coment-name {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coment-text {
+    font-style: italic;
+    font-family: 'Poppins';
+    font-weight: 400  ;
+    font-size: 16px;
+    line-height: 26px;
+    color:   #4D533C;
+    padding: 25px;
+    
+}
+
+.user {
+    font-family: 'Poppins';
+    font-weight: 700  ;
+    font-size: 16px;
+    line-height: 24px;
+    color:   #4D533C;
+}
+
+.work {
+    font-family: 'Poppins';
+    font-weight: 400  ;
+    font-size: 14px;
+    line-height: 21px;
+    color:   #152934;
+}
+
+.visitors {
+    padding-bottom: 50px;
+}

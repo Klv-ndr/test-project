@@ -1,0 +1,83 @@
+.background-img {
+    width: 1440px;
+    height: 811px;
+    background-image: url('../../assets/header.svg');
+
+}
+
+.tool-bar {
+    padding-top: 23px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    padding-left: 20px
+}
+
+.btn-more {
+    background-image: url('../../assets/btn-more.svg');
+    width: 40px;
+    height: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+}
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+    min-width: 40px;
+}
+
+.main-title {
+    padding-top: 230px;
+    width: 616px;
+    height: 412px;
+    padding-left: 20px;
+    }
+body {
+    font-family: 'Poppins', sans-serif;
+  }
+
+.sub-title {
+    font-family: 'Poppins';
+    font-weight: 400  ;
+    font-size: 14px;
+    line-height: 21px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.title {
+    font-family: 'Poppins';
+    font-weight: 700 ;
+    font-size: 60px;
+    line-height: 74px;
+    color: white;
+    margin-top: 15px;
+}
+
+.description-title {
+    font-family: 'Poppins' ;
+    font-weight: 400 ;
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+    margin-top: 15px;
+    
+}
+
+.touch {
+    margin-top: 50px;
+    font-family: 'Poppins';
+    font-weight: 700 ;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFD723;
+    display: flex;
+}
+
+.main-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+

@@ -1,0 +1,31 @@
+.sponsors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1276px;
+    height:  227px;
+    background-color: white;
+    margin-left: 175px;
+    margin-top: -110px;
+    box-shadow: 4px 70px 140px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 1;
+}
+
+.sponsors-logo {
+    width: 156px;
+    height: 113px;
+    margin: 40px;
+}
+
+
+
+.horizontal-line {
+    width: 100%; 
+    height: 1px; 
+    background-color:  #21384299;
+    margin: 0; 
+    border: none; 
+    margin-bottom: 150px;
+  }
+  
