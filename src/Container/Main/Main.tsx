@@ -7,6 +7,8 @@ import PhalenLogo from 'assets/PhalenLeadership.png'
 import './Main.scss'
 import Services from 'Components/Serviceс/Services'
 import Project from 'Components/Project/Project'
+import Evaluation from 'Components/Evaluation/Evaluation'
+import ArrowRightIcon from '@mui/icons-material/ArrowRight'
 
 type Props = {}
 const Main = (props: Props) => {
@@ -44,7 +46,17 @@ const Main = (props: Props) => {
                 <hr className="horizontal-line" />
                 <Project />
                 <hr className="horizontal-line" />
+                <Evaluation />
             </Container>
+            <div className="get-started">
+                <div className="title-green">
+                    Let’s make something amazing together.
+                </div>
+                <a className="product-link start" href="">
+                    <ArrowRightIcon />
+                    Let's get started
+                </a>
+            </div>
         </>
     )
 }

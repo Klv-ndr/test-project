@@ -29,3 +29,46 @@
     margin-bottom: 150px;
   }
   
+.title-green {
+    width: 1000px;
+    height: 148px;
+    font-family: 'Poppins';
+    font-weight: 700  ;
+    font-size: 60px;
+    line-height: 74px;
+    color:   #4D533C;
+    padding-left: 200px;
+    padding-top: 50px;
+    
+}
+
+.product-link {
+    font-family: 'Poppins';
+    font-weight: 400  ;
+    font-size: 16px;
+    line-height: 24px;
+    color:   #D4D6D4;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+.product-link:hover {
+    color: #FFD723;
+    
+}
+
+.get-started {
+    background-color: white;
+    width: 1275px;
+    height: 362px;
+    box-shadow: 4px 70px 140px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 1;
+}
+
+.start {
+    padding-left: 200px;
+    padding-top: 50px;
+    text-transform: uppercase;
+}

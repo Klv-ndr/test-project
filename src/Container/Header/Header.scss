@@ -74,7 +74,10 @@ body {
     color: #FFD723;
     display: flex;
 }
-
+.touch:hover {
+    color: #D4D6D4
+    
+}
 .main-title {
     display: flex;
     flex-direction: column;

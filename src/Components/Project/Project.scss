@@ -38,13 +38,17 @@
     font-family: 'Poppins';
     font-weight: 400  ;
     font-size: 16px;
-    line-height: 2px;
+    line-height: 24px;
     color:   #D4D6D4;
     display: flex;
     align-items: center;
     margin-top: 75px;
     
 
+}
+.text-link:hover {
+    color: #FFD723;
+    
 }
 
 .img-title {

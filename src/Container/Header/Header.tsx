@@ -11,7 +11,7 @@ const Header = (props: Props) => {
                 <Container>
                     <div className="tool-bar">
                         <img className="logo" src={logo} alt="logo" />
-                        <div className="menu">
+                        <div className="fake-menu">
                             <Button className="btn-more"></Button>
                         </div>
                     </div>

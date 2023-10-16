@@ -6,6 +6,7 @@ import OnlineBoookingImg from 'assets/onlineBooking.png'
 import BalComent from 'assets/BalComent.png'
 import ModComent from 'assets/ModComent.png'
 import BookComent from 'assets/BookComent.png'
+import ArrowRightIcon from '@mui/icons-material/ArrowRight'
 
 type Props = {}
 const Project = (props: Props) => {
@@ -45,6 +46,7 @@ const Project = (props: Props) => {
                         </p>
                     </div>
                     <a className="text-link" href="">
+                        <ArrowRightIcon />
                         See Case Study
                     </a>
                 </div>
@@ -79,6 +81,7 @@ const Project = (props: Props) => {
                         </p>
                     </div>
                     <a className="text-link" href="">
+                        <ArrowRightIcon />
                         See Case Study
                     </a>
                 </div>
@@ -121,6 +124,7 @@ const Project = (props: Props) => {
                         </p>
                     </div>
                     <a className="text-link" href="">
+                        <ArrowRightIcon />
                         See Case Study
                     </a>
                 </div>
