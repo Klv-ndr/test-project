@@ -1,8 +1,10 @@
 .background-img {
-    width: 1440px;
+    width: 100%;
     height: 811px;
     background-image: url('../../assets/header.svg');
-
+    background-repeat: no-repeat;
+    background-position:  center;
+    
 }
 
 .tool-bar {

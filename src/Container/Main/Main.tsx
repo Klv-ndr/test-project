@@ -14,49 +14,51 @@ type Props = {}
 const Main = (props: Props) => {
     return (
         <>
-            <div className="sponsors">
-                <img
-                    className="sponsors-logo"
-                    src={AndrewPorterLogo}
-                    alt="AndrewPorterLogo"
-                />
-                <img
-                    className="sponsors-logo"
-                    src={LeaderShipLogo}
-                    alt="LeaderShipLogo"
-                />
-                <img
-                    className="sponsors-logo"
-                    src={WalbridgeLogo}
-                    alt="WalbridgeLogo"
-                />
-                <img
-                    className="sponsors-logo"
-                    src={IdealLogo}
-                    alt="IdealLogo"
-                />
-                <img
-                    className="sponsors-logo"
-                    src={PhalenLogo}
-                    alt="PhalenLogo"
-                />
-            </div>
             <Container>
+                <div className="sponsors">
+                    <img
+                        className="sponsors-logo"
+                        src={AndrewPorterLogo}
+                        alt="AndrewPorterLogo"
+                    />
+                    <img
+                        className="sponsors-logo"
+                        src={LeaderShipLogo}
+                        alt="LeaderShipLogo"
+                    />
+                    <img
+                        className="sponsors-logo"
+                        src={WalbridgeLogo}
+                        alt="WalbridgeLogo"
+                    />
+                    <img
+                        className="sponsors-logo"
+                        src={IdealLogo}
+                        alt="IdealLogo"
+                    />
+                    <img
+                        className="sponsors-logo"
+                        src={PhalenLogo}
+                        alt="PhalenLogo"
+                    />
+                </div>
+
                 <Services />
                 <hr className="horizontal-line" />
                 <Project />
                 <hr className="horizontal-line" />
                 <Evaluation />
-            </Container>
-            <div className="get-started">
-                <div className="title-green">
-                    Let’s make something amazing together.
+
+                <div className="get-started">
+                    <div className="title-green">
+                        Let’s make something amazing together.
+                    </div>
+                    <a className="product-link start" href="">
+                        <ArrowRightIcon />
+                        Let's get started
+                    </a>
                 </div>
-                <a className="product-link start" href="">
-                    <ArrowRightIcon />
-                    Let's get started
-                </a>
-            </div>
+            </Container>
         </>
     )
 }
