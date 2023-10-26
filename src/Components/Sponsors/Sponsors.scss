@@ -1,0 +1,15 @@
+.sponsors {
+    padding: 40px 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: -110px;
+    box-shadow: 4px 70px 140px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 1;
+}
+
+.sponsors-logo {
+    max-width: 156px;    
+}

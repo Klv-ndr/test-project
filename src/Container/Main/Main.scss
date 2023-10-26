@@ -1,38 +1,10 @@
-.sponsors {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 1276px;
-    height:  227px;
-    background-color: white;
-    margin-left: 20px;
-    margin-top: -110px;
-    box-shadow: 4px 70px 140px rgba(0, 0, 0, 0.2);
-    position: relative;
-    z-index: 1;
+.main {
+    font-family: 'Poppins';
 }
 
-.sponsors-logo {
-    width: 156px;
-    height: 113px;
-    margin: 40px;
-}
-
-
-
-.horizontal-line {
-    width: 100%; 
-    height: 1px; 
-    background-color:  #21384299;
-    margin: 0; 
-    border: none; 
-    margin-bottom: 150px;
-  }
-  
 .title-green {
     width: 1000px;
     height: 148px;
-    font-family: 'Poppins';
     font-weight: 700  ;
     font-size: 60px;
     line-height: 74px;
@@ -43,7 +15,6 @@
 }
 
 .product-link {
-    font-family: 'Poppins';
     font-weight: 400  ;
     font-size: 16px;
     line-height: 24px;

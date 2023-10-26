@@ -1,17 +1,18 @@
 import './Footer.scss'
-import { Container } from '@mui/material'
+import { Container, Menu } from '@mui/material'
 import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined'
 import TwitterIcon from '@mui/icons-material/Twitter'
 import GoogleIcon from '@mui/icons-material/Google'
 import LinkedInIcon from '@mui/icons-material/LinkedIn'
+import FooterMenu from 'Components/Footer-menu/FooterMenu'
 
 type Props = {}
 const Footer = (props: Props) => {
     return (
         <>
-            <div className="footer">
+            <footer className="footer">
                 <Container>
-                    <div className="contacts">
+                    <section className="contacts">
                         <div className="phone">
                             <div className="title-contact">Phone</div>
                             <div className="discription-contact">
@@ -34,85 +35,10 @@ const Footer = (props: Props) => {
                                 </a>
                             </div>
                         </div>
-                    </div>
-                    <hr className="horizontal-line-footer" />
-                    <div className="social">
-                        <div className="menu">
-                            <ul className="main-menu">
-                                Services
-                                <li className="sub-menu">
-                                    <a className="link-menu" href="">
-                                        Strategy Design
-                                    </a>
-                                </li>
-                                <li className="sub-menu">
-                                    <a className="link-menu" href="">
-                                        Product Design
-                                    </a>
-                                </li>
-                                <li className="sub-menu">
-                                    <a className="link-menu" href="">
-                                        Content Strategy
-                                    </a>
-                                </li>
-                                <li className="sub-menu">
-                                    <a className="link-menu" href="">
-                                        Brand Strategy
-                                    </a>
-                                </li>
-                                <li className="sub-menu">
-                                    <a className="link-menu" href="">
-                                        Development
-                                    </a>
-                                </li>
-                            </ul>
-                            <ul className="main-menu">
-                                Help and advice
-                                <li className="sub-menu">
-                                    <a className="link-menu" href="">
-                                        How it works
-                                    </a>
-                                </li>
-                                <li className="sub-menu">
-                                    <a className="link-menu" href="">
-                                        Contact Support
-                                    </a>
-                                </li>
-                                <li className="sub-menu">
-                                    <a className="link-menu" href="">
-                                        Privacy Policy
-                                    </a>
-                                </li>
-                                <li className="sub-menu">
-                                    <a className="link-menu" href="">
-                                        FAQ
-                                    </a>
-                                </li>
-                            </ul>
-                            <ul className="main-menu">
-                                Company
-                                <li className="sub-menu">
-                                    <a className="link-menu" href="">
-                                        About
-                                    </a>
-                                </li>
-                                <li className="sub-menu">
-                                    <a className="link-menu" href="">
-                                        Blog
-                                    </a>
-                                </li>
-                                <li className="sub-menu">
-                                    <a className="link-menu" href="">
-                                        Contact
-                                    </a>
-                                </li>
-                                <li className="sub-menu">
-                                    <a className="link-menu" href="">
-                                        Jobs
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
+                    </section>
+
+                    <section className="social">
+                        <FooterMenu />
                         <div className="info">
                             <div className="main-menu">Get in Touch</div>
                             <div className="sub-menu">
@@ -142,9 +68,9 @@ const Footer = (props: Props) => {
                                 </a>
                             </div>
                         </div>
-                    </div>
+                    </section>
                 </Container>
-            </div>
+            </footer>
         </>
     )
 }

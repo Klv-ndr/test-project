@@ -1,18 +1,21 @@
 import './Services.scss'
 import Visitor from 'assets/Visitor1.png'
 import ArrowRightIcon from '@mui/icons-material/ArrowRight'
+import { FontStyles } from 'Components/Styles/FontStyles'
 
-type Props = {}
-const Services = (props: Props) => {
+type Props = { fontStyles: FontStyles }
+const Services: React.FC<Props> = ({ fontStyles }) => {
     return (
         <>
             <div className="services">
-                <div className="text-services">
-                    <div className="subtitle-text">What we do for you</div>
-                    <div className="title-text">
+                <section className="text-services">
+                    <div className="sub-title" style={fontStyles.subtitle}>
+                        What we do for you
+                    </div>
+                    <div className="title" style={fontStyles.title}>
                         Strategy. Design Content. Technology Development{' '}
                     </div>
-                    <div className="description-text">
+                    <div className="description" style={fontStyles.description}>
                         There’s no secret sauce, no wizard behind the curtain.
                         What makes Aerolab tick is an interdisciplinary team
                         with a framework that fosters candid collaboration.
@@ -21,8 +24,8 @@ const Services = (props: Props) => {
                         <ArrowRightIcon className="rigth-icon-grey" />
                         More know About us
                     </a>
-                </div>
-                <div className="comment-title">
+                </section>
+                <section className="comment-title">
                     <div className="comment-text">
                         With More than 10 Years of Knowledge and Expertise we
                         Design and Code Websites and Apps, We Build Brands and
@@ -39,7 +42,7 @@ const Services = (props: Props) => {
                             <div className="job">Founder & CEO, Webovio</div>
                         </div>
                     </div>
-                </div>
+                </section>
             </div>
         </>
     )

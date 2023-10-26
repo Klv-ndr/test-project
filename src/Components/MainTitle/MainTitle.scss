@@ -1,0 +1,41 @@
+.main-title {
+    padding-top: 110px;
+    max-width: 616px;
+    
+}
+
+.sub-title {   
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 2;
+    color: white;
+    padding-bottom: 25px;
+}
+    
+.title {  
+    font-weight: 700 ;
+    font-size: 60px;
+    line-height: 1.23;
+    color: white;
+    padding-bottom: 15px;
+}
+    
+.description-title {   
+    font-weight: 400 ;
+    font-size: 16px;
+    line-height: 1.6;
+    color: white; 
+    padding-bottom: 50px;     
+}
+
+.touch {
+    font-weight: 700 ;
+    max-width: 125px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #FFD723;
+    display: flex;
+}
+.touch:hover {
+    color: #D4D6D4
+}
